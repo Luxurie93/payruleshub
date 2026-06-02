@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+  h1 {
+    @apply text-4xl font-bold mb-4 mt-6 text-blue-900;
+  }
+  h2 {
+    @apply text-2xl font-bold mb-3 mt-5 text-blue-900;
+  }
+  h3 {
+    @apply text-xl font-bold mb-2 mt-4 text-blue-900;
+  }
+  a {
+    @apply text-teal-600 hover:text-teal-700 transition;
+  }
+}
+
+@layer components {
+  .ad-placeholder {
+    @apply bg-slate-100 border-2 border-dashed border-slate-300 rounded p-4 text-center text-sm text-slate-500;
+  }
+
+  .btn-primary {
+    @apply bg-blue-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition cursor-pointer inline-block;
+  }
+
+  .input-field {
+    @apply border border-slate-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 bg-white;
+  }
+
+  .calculator-result {
+    @apply bg-green-50 border-l-4 border-green-500 p-4 rounded;
+  }
+
+  .faq-item {
+    @apply border-b border-slate-200 py-4;
+  }
+  
+  .disclaimer-block {
+    @apply bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded;
+  }
+}
