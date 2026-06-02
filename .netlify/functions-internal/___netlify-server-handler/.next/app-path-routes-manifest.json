@@ -1,0 +1,23 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/blog/biweekly-vs-semimonthly-pay/page": "/blog/biweekly-vs-semimonthly-pay",
+  "/blog/how-to-calculate-overtime-pay/page": "/blog/how-to-calculate-overtime-pay",
+  "/blog/how-to-estimate-take-home-pay-in-2026/page": "/blog/how-to-estimate-take-home-pay-in-2026",
+  "/blog/overtime-rules-by-state/page": "/blog/overtime-rules-by-state",
+  "/blog/page": "/blog",
+  "/blog/pto-accrual-explained/page": "/blog/pto-accrual-explained",
+  "/blog/severance-pay-guide/page": "/blog/severance-pay-guide",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/terms/page": "/terms",
+  "/tools/hourly-to-salary-calculator/page": "/tools/hourly-to-salary-calculator",
+  "/tools/overtime-pay-calculator/page": "/tools/overtime-pay-calculator",
+  "/tools/page": "/tools",
+  "/tools/pto-accrual-calculator/page": "/tools/pto-accrual-calculator",
+  "/tools/severance-pay-calculator/page": "/tools/severance-pay-calculator"
+}

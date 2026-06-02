@@ -1,0 +1,13 @@
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/tools/severance-pay-calculator/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1vrc6re._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_082vc99.js")
+R.c("server/chunks/ssr/[root-of-the-server]__147sqn3._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__02l7d_r._.js")
+R.c("server/chunks/ssr/_09uk2wk._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_0wpq8j3._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_0symwr9.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0-o-goa.js")
+R.c("server/chunks/ssr/_next-internal_server_app_tools_severance-pay-calculator_page_actions_1fxk-3n.js")
+R.m(13457)
+module.exports=R.m(13457).exports

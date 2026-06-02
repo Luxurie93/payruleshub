@@ -1,0 +1,23 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/blog/biweekly-vs-semimonthly-pay/page": "app/blog/biweekly-vs-semimonthly-pay/page.js",
+  "/blog/how-to-calculate-overtime-pay/page": "app/blog/how-to-calculate-overtime-pay/page.js",
+  "/blog/how-to-estimate-take-home-pay-in-2026/page": "app/blog/how-to-estimate-take-home-pay-in-2026/page.js",
+  "/blog/overtime-rules-by-state/page": "app/blog/overtime-rules-by-state/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog/pto-accrual-explained/page": "app/blog/pto-accrual-explained/page.js",
+  "/blog/severance-pay-guide/page": "app/blog/severance-pay-guide/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/terms/page": "app/terms/page.js",
+  "/tools/hourly-to-salary-calculator/page": "app/tools/hourly-to-salary-calculator/page.js",
+  "/tools/overtime-pay-calculator/page": "app/tools/overtime-pay-calculator/page.js",
+  "/tools/page": "app/tools/page.js",
+  "/tools/pto-accrual-calculator/page": "app/tools/pto-accrual-calculator/page.js",
+  "/tools/severance-pay-calculator/page": "app/tools/severance-pay-calculator/page.js"
+}

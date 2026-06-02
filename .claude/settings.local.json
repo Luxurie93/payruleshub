@@ -4,7 +4,10 @@
       "Bash(npm run *)",
       "Bash(curl -s http://localhost:3000)",
       "Bash(curl -s http://localhost:3000/tools/hourly-to-salary-calculator)",
-      "mcp__Claude_in_Chrome__tabs_context_mcp"
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }

@@ -6,7 +6,7 @@ import StateSelector from "@/components/StateSelector";
 import { useSelectedState } from "@/context/StateContext";
 import { US_STATES } from "@/lib/data/states";
 
-export default function TakeHomePayRulesHubulator() {
+export default function TakeHomePayCalculator() {
   const { selectedState } = useSelectedState();
   const [grossPay, setGrossPay] = useState(3000);
   const [filingStatus, setFilingStatus] = useState<
