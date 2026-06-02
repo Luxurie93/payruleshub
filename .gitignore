@@ -7,6 +7,9 @@ node_modules/
 /.next/
 /out/
 
+# Netlify
+/.netlify/
+
 # Production
 /build
 
