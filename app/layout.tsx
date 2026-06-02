@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { StateProvider } from "@/context/StateContext";
 
-const SITE_URL = "https://paycalc.app";
+const SITE_URL = "https://payruleshub.com";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -12,32 +12,32 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Free Work & Paycheck Calculators | PayCalc",
-    template: "%s | PayCalc",
+    default: "Free Work & Paycheck Calculators | PayRulesHub",
+    template: "%s | PayRulesHub",
   },
   description:
     "Calculate overtime, PTO, hourly-to-salary, take-home pay, and severance in seconds. No signup. Fast, free, and easy to use.",
   keywords:
     "overtime calculator, PTO accrual, salary calculator, take-home pay, severance calculator",
   openGraph: {
-    title: "Free Work & Paycheck Calculators | PayCalc",
+    title: "Free Work & Paycheck Calculators | PayRulesHub",
     description:
       "Calculate overtime, PTO, hourly-to-salary, take-home pay, and severance in seconds.",
     url: SITE_URL,
-    siteName: "PayCalc",
+    siteName: "PayRulesHub",
     type: "website",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "PayCalc — Free Work & Paycheck Calculators",
+        alt: "PayRulesHub — Free Work & Paycheck Calculators",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Work & Paycheck Calculators | PayCalc",
+    title: "Free Work & Paycheck Calculators | PayRulesHub",
     description:
       "Calculate overtime, PTO, hourly-to-salary, take-home pay, and severance in seconds.",
     images: ["/og-image.png"],
@@ -60,7 +60,7 @@ export default function RootLayout({
         <StateProvider>
           <header className="bg-white shadow-sm sticky top-0 z-50">
             <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-              <div className="text-2xl font-bold text-blue-900">PayCalc</div>
+              <div className="text-2xl font-bold text-blue-900">PayRulesHub</div>
               <ul className="flex gap-6 text-sm">
                 <li>
                   <a href="/" className="text-slate-700 hover:text-teal-600 transition">Home</a>
@@ -127,7 +127,7 @@ export default function RootLayout({
                 </div>
               </div>
               <div className="border-t border-slate-700 pt-4 text-center text-xs text-slate-400">
-                <p>© 2026 PayCalc. All rights reserved. Not professional tax advice.</p>
+                <p>© 2026 PayRulesHub. All rights reserved. Not professional tax advice.</p>
               </div>
             </div>
           </footer>

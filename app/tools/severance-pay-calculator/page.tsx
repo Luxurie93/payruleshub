@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import TakeHomePayCalculator from "@/components/calculators/TakeHomePayCalculator";
+import TakeHomePayRulesHubulator from "@/components/calculators/TakeHomePayRulesHubulator";
 
 export const metadata: Metadata = {
   title: "Take-Home Pay Estimator (Quick Net Pay Estimate)",
@@ -38,7 +38,7 @@ export default function Page() {
 
         <div className="grid grid-cols-3 gap-6">
           <div className="col-span-2">
-            <TakeHomePayCalculator />
+            <TakeHomePayRulesHubulator />
 
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
               <h3 className="text-lg font-bold mb-4">Related Tools</h3>

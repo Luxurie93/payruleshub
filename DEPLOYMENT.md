@@ -1,9 +1,9 @@
-# Deployment Guide for PayCalc
+# Deployment Guide for PayRulesHub
 
 ## Quick Start - Deploy to Vercel (Recommended)
 
 ### Step 1: Prepare Domain
-1. Purchase domain (e.g., `payruleshub.com`, `paycalc.io`)
+1. Purchase domain (e.g., `payruleshub.com`, `payruleshub.io`)
 2. Point nameservers to Vercel or use CNAME
 
 ### Step 2: Deploy
@@ -65,13 +65,13 @@ After deployment, update Vercel dashboard:
 ### Docker / Self-Hosted
 ```bash
 # Build image
-docker build -t paycalc:latest .
+docker build -t payruleshub:latest .
 
 # Run container
-docker run -p 3000:3000 paycalc:latest
+docker run -p 3000:3000 payruleshub:latest
 
 # Push to registry (Docker Hub, ECR, etc.)
-docker push paycalc:latest
+docker push payruleshub:latest
 ```
 
 ### Static Export (Cloudflare Pages, GitHub Pages)

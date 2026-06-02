@@ -3,7 +3,7 @@ import OvertimeCalculator from "@/components/calculators/OvertimeCalculator";
 
 export const metadata: Metadata = {
   title:
-    "Overtime Pay Calculator (Daily and Weekly) | Free | PayCalc",
+    "Overtime Pay Calculator (Daily and Weekly) | Free | PayRulesHub",
   description:
     "Calculate overtime pay fast with regular rate, overtime multipliers, and weekly totals. Free payroll helper tool.",
   keywords: "overtime calculator, overtime pay, payroll calculator",

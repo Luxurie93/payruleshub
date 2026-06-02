@@ -1,4 +1,4 @@
-# PayCalc - AdSense Utility Site
+# PayRulesHub - AdSense Utility Site
 
 A fast, SEO-optimized Next.js site with 5 free payroll calculators and 6 blog articles about employment and payroll.
 
@@ -96,8 +96,8 @@ vercel
 
 ### Docker
 ```bash
-docker build -t paycalc .
-docker run -p 3000:3000 paycalc
+docker build -t payruleshub .
+docker run -p 3000:3000 payruleshub
 ```
 
 ### Static Export (No Server Needed)

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/.next",
     },
-    sitemap: "https://paycalc.app/sitemap.xml",
+    sitemap: "https://payruleshub.com/sitemap.xml",
   };
 }

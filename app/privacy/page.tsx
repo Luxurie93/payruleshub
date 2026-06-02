@@ -9,7 +9,7 @@ export default function Page() {
 
         <h2>Overview</h2>
         <p>
-          PayCalc ("we," "us," or "our") operates this website and all
+          PayRulesHub ("we," "us," or "our") operates this website and all
           associated calculators. This privacy policy explains how we collect,
           use, and protect information.
         </p>

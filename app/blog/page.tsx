@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "PayCalc Blog",
+  title: "PayRulesHub Blog",
   description: "Read helpful guides about payroll, overtime, PTO, and salaries.",
 };
 

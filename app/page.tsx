@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Work & Paycheck Calculators | PayCalc",
+  title: "Free Work & Paycheck Calculators | PayRulesHub",
   description:
     "Calculate overtime, PTO, hourly-to-salary, take-home pay, and severance in seconds. No signup. Fast, free, and easy to use.",
   keywords:
@@ -12,8 +12,8 @@ export default function Home() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "PayCalc",
-    url: "https://paycalc.app",
+    name: "PayRulesHub",
+    url: "https://payruleshub.com",
     description: "Free work and paycheck calculators",
   };
 

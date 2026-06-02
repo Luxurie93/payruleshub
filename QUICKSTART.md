@@ -1,4 +1,4 @@
-# ⚡ PayCalc: Ready-to-Launch AdSense Utility Site
+# ⚡ PayRulesHub: Ready-to-Launch AdSense Utility Site
 
 ## 🎉 What You Have
 

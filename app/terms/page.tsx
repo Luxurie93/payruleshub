@@ -9,14 +9,14 @@ export default function Page() {
 
         <h2>1. Acceptance of Terms</h2>
         <p>
-          By accessing and using PayCalc (including all calculators and content),
+          By accessing and using PayRulesHub (including all calculators and content),
           you agree to these terms. If you disagree, do not use this site.
         </p>
 
         <h2>2. Use License</h2>
         <p>
           Permission is granted to temporarily download one copy of the
-          materials (information or software) on PayCalc for personal,
+          materials (information or software) on PayRulesHub for personal,
           non-commercial transitory viewing only.
         </p>
 
@@ -29,14 +29,14 @@ export default function Page() {
 
         <h2>4. Limitation of Liability</h2>
         <p>
-          In no event shall PayCalc or our suppliers be liable for any damages
+          In no event shall PayRulesHub or our suppliers be liable for any damages
           (including lost profits, data, or business interruption) arising from
           the use or inability to use the materials or calculators.
         </p>
 
         <h2>5. Not Professional Advice</h2>
         <p>
-          PayCalc provides calculators for informational purposes only. We are
+          PayRulesHub provides calculators for informational purposes only. We are
           not licensed tax advisors, accountants, or employment attorneys. Do
           not rely on our calculators for legal, tax, or professional business
           decisions. Consult qualified professionals.
@@ -61,14 +61,14 @@ export default function Page() {
 
         <h2>8. Third-Party Links</h2>
         <p>
-          PayCalc may contain links to third-party sites. We are not responsible
+          PayRulesHub may contain links to third-party sites. We are not responsible
           for their content, accuracy, or privacy practices.
         </p>
 
         <h2>9. Intellectual Property</h2>
         <p>
           All content, calculators, code, and design on this site are owned by
-          PayCalc or our content providers. You may not reproduce, modify, or
+          PayRulesHub or our content providers. You may not reproduce, modify, or
           redistribute without explicit permission.
         </p>
 

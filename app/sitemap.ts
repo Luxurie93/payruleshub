@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://paycalc.app";
+  const baseUrl = "https://payruleshub.com";
 
   return [
     {

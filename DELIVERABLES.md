@@ -1,4 +1,4 @@
-# 📦 PayCalc - Complete Deliverables
+# 📦 PayRulesHub - Complete Deliverables
 
 ## ✅ Site Built Successfully
 
@@ -46,7 +46,7 @@
 - ✅ `OvertimeCalculator.tsx` (inputs: rate, hours, threshold, multiplier)
 - ✅ `PTOCalculator.tsx` (inputs: accrual rate, hours/week, frequency)
 - ✅ `HourlyToSalaryCalculator.tsx` (inputs: rate, hours/week, weeks/year)
-- ✅ `TakeHomePayCalculator.tsx` (inputs: gross, filing status, tax rates)
+- ✅ `TakeHomePayRulesHubulator.tsx` (inputs: gross, filing status, tax rates)
 - ✅ `SeveranceCalculator.tsx` (inputs: weekly pay, years, formula)
 
 ### Utility Functions (lib/calculator-logic.ts)
