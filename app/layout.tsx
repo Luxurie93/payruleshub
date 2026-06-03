@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { StateProvider } from "@/context/StateContext";
 
@@ -62,6 +63,18 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-W6FG59LHH7"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W6FG59LHH7');
+          `}
+        </Script>
         <StateProvider>
           <header className="bg-white shadow-sm sticky top-0 z-50">
             <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
