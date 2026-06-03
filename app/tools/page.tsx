@@ -1,121 +1,96 @@
 import { Metadata } from "next";
-import TakeHomePayCalculator from "@/components/calculators/TakeHomePayCalculator";
 
 export const metadata: Metadata = {
-  title: "Take-Home Pay Estimator (Quick Net Pay Estimate)",
+  title: "Free Payroll & Pay Calculators | PayRulesHub",
   description:
-    "Estimate take-home pay from gross income with basic tax and deduction assumptions.",
-  keywords: "take-home pay, net pay calculator, tax calculator",
+    "Free online pay calculators: overtime, PTO accrual, hourly-to-salary, take-home pay, and severance. No signup required. Results in seconds.",
+  keywords:
+    "payroll calculators, overtime calculator, pto calculator, salary calculator, take-home pay calculator, severance calculator",
+  alternates: {
+    canonical: "https://payruleshub.com/tools",
+  },
 };
 
-export default function Page() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "Take-Home Pay Estimator",
-    description: "Estimate your net pay after taxes",
-    url: "https://example.com/tools/take-home-pay-estimator",
-    applicationCategory: "UtilityApplication",
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "USD",
-    },
-  };
+const tools = [
+  {
+    href: "/tools/overtime-pay-calculator",
+    title: "Overtime Pay Calculator",
+    description:
+      "Calculate regular pay, overtime pay, and weekly total for any hourly rate. Includes state-specific rules for CA, NY, TX, and more.",
+    badge: "Most popular",
+  },
+  {
+    href: "/tools/pto-accrual-calculator",
+    title: "PTO Accrual Calculator",
+    description:
+      "Find out how much paid time off you earn per pay period, per month, and per year — for biweekly, semimonthly, or monthly schedules.",
+  },
+  {
+    href: "/tools/hourly-to-salary-calculator",
+    title: "Hourly to Salary Calculator",
+    description:
+      "Convert any hourly wage to annual, monthly, biweekly, and weekly salary equivalents. Adjust for part-time hours or unpaid weeks.",
+  },
+  {
+    href: "/tools/take-home-pay-estimator",
+    title: "Take-Home Pay Estimator",
+    description:
+      "Estimate net pay from gross income after federal tax, state tax, Social Security, and Medicare. Auto-fills state tax rates for all 50 states.",
+  },
+  {
+    href: "/tools/severance-pay-calculator",
+    title: "Severance Pay Calculator",
+    description:
+      "Estimate your severance package using 1-week, 2-week, or monthly per-year formulas based on your years of service and salary.",
+  },
+];
 
+export default function ToolsPage() {
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        <div className="mb-6">
-          <div className="ad-placeholder h-24">
-            Advertisement (Google AdSense Slot 1)
-          </div>
-        </div>
+    <div className="max-w-4xl mx-auto px-4 py-12">
+      <h1 className="text-3xl font-bold text-slate-900 mb-3">
+        Free Payroll &amp; Pay Calculators
+      </h1>
+      <p className="text-gray-600 mb-10">
+        All calculators run entirely in your browser — no signup, no data storage, no cost.
+      </p>
 
-        <div className="grid grid-cols-3 gap-6">
-          <div className="col-span-2">
-            <TakeHomePayCalculator />
-
-            <div className="mt-8 p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-lg font-bold mb-4">Related Tools</h3>
-              <div className="space-y-3">
-                <a
-                  href="/tools/overtime-pay-calculator"
-                  className="block p-3 bg-white border rounded hover:shadow-md transition"
-                >
-                  <strong>Overtime Pay Calculator</strong>
-                  <p className="text-sm text-gray-600">
-                    Calculate overtime pay
-                  </p>
-                </a>
-                <a
-                  href="/tools/hourly-to-salary-calculator"
-                  className="block p-3 bg-white border rounded hover:shadow-md transition"
-                >
-                  <strong>Hourly to Salary Calculator</strong>
-                  <p className="text-sm text-gray-600">
-                    Convert hourly to salary
-                  </p>
-                </a>
+      <div className="space-y-4">
+        {tools.map((tool) => (
+          <a
+            key={tool.href}
+            href={tool.href}
+            className="flex items-start justify-between p-5 bg-white border border-gray-200 rounded-lg hover:shadow-md hover:border-teal-400 transition group"
+          >
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <h2 className="text-lg font-semibold text-slate-900 group-hover:text-teal-700 transition">
+                  {tool.title}
+                </h2>
+                {tool.badge && (
+                  <span className="text-xs bg-teal-100 text-teal-700 px-2 py-0.5 rounded-full font-medium">
+                    {tool.badge}
+                  </span>
+                )}
               </div>
+              <p className="text-sm text-gray-600">{tool.description}</p>
             </div>
-
-            <div className="my-8">
-              <div className="ad-placeholder h-24">
-                Advertisement (Google AdSense Slot 2)
-              </div>
-            </div>
-
-            <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
-              <h3 className="text-lg font-bold mb-4">FAQ</h3>
-              <div className="space-y-4">
-                <div className="faq-item">
-                  <h4 className="font-semibold">
-                    Why is my actual take-home different?
-                  </h4>
-                  <p className="text-sm text-gray-700 mt-2">
-                    This is a simplified estimate. Actual deductions depend on
-                    W-4 withholding adjustments, credits, pre-tax deductions
-                    (401k, HSA), and state-specific rules.
-                  </p>
-                </div>
-                <div className="faq-item">
-                  <h4 className="font-semibold">
-                    What about retirement or health insurance?
-                  </h4>
-                  <p className="text-sm text-gray-700 mt-2">
-                    This calculator does not include those pre-tax deductions.
-                    Add them separately for accuracy.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="bg-white p-6 rounded-lg shadow-md sticky top-20">
-              <h3 className="text-lg font-bold mb-4">Learn More</h3>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <a href="/blog/how-to-estimate-take-home-pay-in-2026">
-                    → Take-Home Pay Guide
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-12">
-          <div className="ad-placeholder h-24">
-            Advertisement (Google AdSense Slot 3)
-          </div>
-        </div>
+            <span className="ml-4 mt-1 text-teal-600 text-lg font-bold shrink-0">→</span>
+          </a>
+        ))}
       </div>
-    </>
+
+      <div className="mt-12 p-6 bg-gray-50 rounded-lg">
+        <h2 className="text-base font-bold mb-3 text-slate-800">Related Guides</h2>
+        <ul className="space-y-2 text-sm">
+          <li><a href="/blog/how-to-calculate-overtime-pay" className="text-teal-700 hover:underline">→ How to Calculate Overtime Pay</a></li>
+          <li><a href="/blog/overtime-rules-by-state" className="text-teal-700 hover:underline">→ Overtime Rules by State</a></li>
+          <li><a href="/blog/pto-accrual-explained" className="text-teal-700 hover:underline">→ How PTO Accrual Works</a></li>
+          <li><a href="/blog/biweekly-vs-semimonthly-pay" className="text-teal-700 hover:underline">→ Biweekly vs Semimonthly Pay</a></li>
+          <li><a href="/blog/severance-pay-guide" className="text-teal-700 hover:underline">→ Severance Pay Guide</a></li>
+          <li><a href="/blog/how-to-estimate-take-home-pay-in-2026" className="text-teal-700 hover:underline">→ Take-Home Pay Guide 2026</a></li>
+        </ul>
+      </div>
+    </div>
   );
 }

@@ -52,7 +52,7 @@ export default function Page() {
             Convert any hourly rate to annual, monthly, biweekly, and weekly equivalents
           </li>
           <li>
-            <strong><a href="/tools">Take-Home Pay Estimator</a></strong> —
+            <strong><a href="/tools/take-home-pay-estimator">Take-Home Pay Estimator</a></strong> —
             Estimate net pay after federal taxes, FICA, state taxes, and pre-tax deductions
           </li>
           <li>

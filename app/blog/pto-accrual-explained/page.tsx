@@ -234,7 +234,7 @@ export default function Page() {
               <li><a href="/tools/pto-accrual-calculator">→ PTO Accrual Calculator</a></li>
               <li><a href="/blog/biweekly-vs-semimonthly-pay">→ Biweekly vs Semimonthly Pay</a></li>
               <li><a href="/tools/hourly-to-salary-calculator">→ Hourly to Salary Calculator</a></li>
-              <li><a href="/tools">→ Take-Home Pay Estimator</a></li>
+              <li><a href="/tools/take-home-pay-estimator">→ Take-Home Pay Estimator</a></li>
             </ul>
           </div>
         </div>

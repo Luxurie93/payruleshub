@@ -225,7 +225,7 @@ export default function Page() {
           <div className="mt-8 p-6 bg-gray-50 rounded-lg">
             <h3 className="text-lg font-bold mb-4">Related Tools &amp; Articles</h3>
             <ul className="space-y-2">
-              <li><a href="/tools">→ Take-Home Pay Estimator</a></li>
+              <li><a href="/tools/take-home-pay-estimator">→ Take-Home Pay Estimator</a></li>
               <li><a href="/tools/hourly-to-salary-calculator">→ Hourly to Salary Calculator</a></li>
               <li><a href="/tools/overtime-pay-calculator">→ Overtime Pay Calculator</a></li>
               <li><a href="/blog/biweekly-vs-semimonthly-pay">→ Biweekly vs Semimonthly Pay</a></li>
@@ -244,7 +244,7 @@ export default function Page() {
             <hr />
             <p className="text-sm font-semibold">Tools</p>
             <ul className="text-sm space-y-1">
-              <li><a href="/tools">Take-Home Estimator →</a></li>
+              <li><a href="/tools/take-home-pay-estimator">Take-Home Estimator →</a></li>
               <li><a href="/tools/hourly-to-salary-calculator">Salary Calculator →</a></li>
             </ul>
           </div>

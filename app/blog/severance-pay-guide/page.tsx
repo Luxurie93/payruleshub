@@ -261,7 +261,7 @@ export default function Page() {
             <h3 className="text-lg font-bold mb-4">Related Tools &amp; Articles</h3>
             <ul className="space-y-2">
               <li><a href="/tools/severance-pay-calculator">→ Severance Pay Calculator</a></li>
-              <li><a href="/tools">→ Take-Home Pay Estimator</a></li>
+              <li><a href="/tools/take-home-pay-estimator">→ Take-Home Pay Estimator</a></li>
               <li><a href="/tools/hourly-to-salary-calculator">→ Hourly to Salary Calculator</a></li>
               <li><a href="/blog/how-to-estimate-take-home-pay-in-2026">→ How to Estimate Take-Home Pay in 2026</a></li>
             </ul>
@@ -281,7 +281,7 @@ export default function Page() {
             <p className="text-sm font-semibold">Tools</p>
             <ul className="text-sm space-y-1">
               <li><a href="/tools/severance-pay-calculator">Severance Calculator →</a></li>
-              <li><a href="/tools">Take-Home Estimator →</a></li>
+              <li><a href="/tools/take-home-pay-estimator">Take-Home Estimator →</a></li>
             </ul>
           </div>
         </div>

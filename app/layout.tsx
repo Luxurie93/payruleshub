@@ -113,6 +113,12 @@ export default function RootLayout({
                     <li>
                       <a href="/tools/hourly-to-salary-calculator">Salary Converter</a>
                     </li>
+                    <li>
+                      <a href="/tools/take-home-pay-estimator">Take-Home Pay</a>
+                    </li>
+                    <li>
+                      <a href="/tools/severance-pay-calculator">Severance Calculator</a>
+                    </li>
                   </ul>
                 </div>
                 <div>

@@ -242,7 +242,7 @@ export default function Page() {
             <ul className="space-y-2">
               <li><a href="/tools/overtime-pay-calculator">→ Overtime Pay Calculator</a></li>
               <li><a href="/blog/how-to-calculate-overtime-pay">→ How to Calculate Overtime Pay</a></li>
-              <li><a href="/tools">→ Take-Home Pay Estimator</a></li>
+              <li><a href="/tools/take-home-pay-estimator">→ Take-Home Pay Estimator</a></li>
               <li><a href="/tools/hourly-to-salary-calculator">→ Hourly to Salary Calculator</a></li>
             </ul>
           </div>
@@ -260,7 +260,7 @@ export default function Page() {
             <p className="text-sm font-semibold">Calculators</p>
             <ul className="text-sm space-y-1">
               <li><a href="/tools/overtime-pay-calculator">OT Calculator →</a></li>
-              <li><a href="/tools">Take-Home Estimator →</a></li>
+              <li><a href="/tools/take-home-pay-estimator">Take-Home Estimator →</a></li>
             </ul>
           </div>
         </div>
