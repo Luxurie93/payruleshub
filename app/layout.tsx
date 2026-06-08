@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { StateProvider } from "@/context/StateContext";
+import NavDropdown from "@/components/NavDropdown";
 
 const SITE_URL = "https://payruleshub.com";
 
@@ -83,9 +84,7 @@ export default function RootLayout({
                 <li>
                   <a href="/" className="text-slate-700 hover:text-teal-600 transition">Home</a>
                 </li>
-                <li>
-                  <a href="/tools" className="text-slate-700 hover:text-teal-600 transition">Tools</a>
-                </li>
+                <NavDropdown />
                 <li>
                   <a href="/blog" className="text-slate-700 hover:text-teal-600 transition">Blog</a>
                 </li>
