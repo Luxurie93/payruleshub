@@ -133,6 +133,9 @@ export default function RootLayout({
                     <li>
                       <a href="/blog/biweekly-vs-semimonthly-pay">Pay Schedules</a>
                     </li>
+                    <li>
+                      <a href="/blog/final-paycheck-laws">Final Paycheck Laws</a>
+                    </li>
                   </ul>
                 </div>
                 <div>

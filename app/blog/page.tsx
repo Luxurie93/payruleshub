@@ -42,6 +42,11 @@ export default function Page() {
             excerpt: "Understand deductions and estimate your net paycheck.",
             link: "/blog/how-to-estimate-take-home-pay-in-2026",
           },
+          {
+            title: "Final Paycheck Laws by State (2026)",
+            excerpt: "When is your last check due after quitting or being fired? State-by-state rules plus PTO payout laws.",
+            link: "/blog/final-paycheck-laws",
+          },
         ].map((post, i) => (
           <a
             key={i}

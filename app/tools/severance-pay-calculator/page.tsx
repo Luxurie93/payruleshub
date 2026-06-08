@@ -242,6 +242,7 @@ export default function Page() {
               <h3 className="text-lg font-bold mb-4">Learn More</h3>
               <ul className="space-y-2 text-sm">
                 <li><a href="/blog/severance-pay-guide" className="text-teal-700 hover:underline">→ Severance Pay Guide</a></li>
+                <li><a href="/blog/final-paycheck-laws" className="text-teal-700 hover:underline">→ Final Paycheck Laws by State</a></li>
                 <li><a href="/blog/how-to-estimate-take-home-pay-in-2026" className="text-teal-700 hover:underline">→ Take-Home Pay Guide 2026</a></li>
                 <li><a href="/tools/take-home-pay-estimator" className="text-teal-700 hover:underline">→ Take-Home Pay Estimator</a></li>
                 <li><a href="/tools/hourly-to-salary-calculator" className="text-teal-700 hover:underline">→ Hourly to Salary Calculator</a></li>

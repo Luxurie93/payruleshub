@@ -238,6 +238,7 @@ export default function Page() {
               <ul className="space-y-2 text-sm">
                 <li><a href="/blog/pto-accrual-explained" className="text-teal-700 hover:underline">→ How PTO Accrual Works</a></li>
                 <li><a href="/blog/biweekly-vs-semimonthly-pay" className="text-teal-700 hover:underline">→ Biweekly vs Semimonthly Pay</a></li>
+                <li><a href="/blog/final-paycheck-laws" className="text-teal-700 hover:underline">→ Final Paycheck Laws by State</a></li>
                 <li><a href="/tools/overtime-pay-calculator" className="text-teal-700 hover:underline">→ Overtime Pay Calculator</a></li>
                 <li><a href="/tools/hourly-to-salary-calculator" className="text-teal-700 hover:underline">→ Hourly to Salary Calculator</a></li>
               </ul>
