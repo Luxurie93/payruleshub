@@ -13,14 +13,30 @@ const stateGuides = [
     ["/blog/california-overtime-calculator", "California Overtime Calculator"],
     ["/blog/california-pto-payout-calculator", "California PTO Payout Calculator"],
   ]],
+  ["New York", [
+    ["/blog/new-york-final-paycheck-calculator", "New York Final Paycheck Calculator"],
+    ["/blog/new-york-pto-payout-calculator", "New York PTO Payout Calculator"],
+    ["/blog/new-york-take-home-pay-calculator", "New York Take-Home Pay Calculator"],
+  ]],
+  ["Florida", [
+    ["/blog/florida-final-paycheck-calculator", "Florida Final Paycheck Calculator"],
+    ["/blog/florida-pto-payout-calculator", "Florida PTO Payout Calculator"],
+    ["/blog/florida-take-home-pay-calculator", "Florida Take-Home Pay Calculator"],
+  ]],
   ["Texas", [
     ["/blog/texas-overtime-calculator", "Texas Overtime Calculator"],
     ["/blog/texas-pto-payout-calculator", "Texas PTO Payout Calculator"],
   ]],
   ["Massachusetts", [
+    ["/blog/massachusetts-final-paycheck-calculator", "Massachusetts Final Paycheck Calculator"],
+    ["/blog/massachusetts-overtime-calculator", "Massachusetts Overtime Calculator"],
+    ["/blog/massachusetts-pto-payout-calculator", "Massachusetts PTO Payout Calculator"],
     ["/blog/massachusetts-take-home-pay-calculator", "Massachusetts Take-Home Pay Calculator"],
   ]],
   ["Rhode Island", [
+    ["/blog/rhode-island-final-paycheck-calculator", "Rhode Island Final Paycheck Calculator"],
+    ["/blog/rhode-island-overtime-calculator", "Rhode Island Overtime Calculator"],
+    ["/blog/rhode-island-pto-payout-calculator", "Rhode Island PTO Payout Calculator"],
     ["/blog/rhode-island-take-home-pay-calculator", "Rhode Island Take-Home Pay Calculator"],
   ]],
 ];
@@ -70,7 +86,7 @@ export default function Page() {
         <p className="mt-2">
           State employment and wage laws can depend on facts such as employee classification, industry,
           employer size, collective bargaining agreements, and local ordinances. PayRulesHub is educational
-          only and does not provide legal, tax, payroll, or HR advice.
+          only and does not provide legal, tax, payroll, HR, or financial advice.
         </p>
       </section>
     </div>
