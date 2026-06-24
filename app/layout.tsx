@@ -90,6 +90,9 @@ export default function RootLayout({
                   <a href="/blog" className="text-slate-700 hover:text-teal-600 transition">Blog</a>
                 </li>
                 <li>
+                  <a href="/state-payroll-laws" className="text-slate-700 hover:text-teal-600 transition">State Guides</a>
+                </li>
+                <li>
                   <a href="/about" className="text-slate-700 hover:text-teal-600 transition">About</a>
                 </li>
               </ul>
@@ -105,6 +108,9 @@ export default function RootLayout({
                   <h3 className="font-bold mb-2">Tools</h3>
                   <ul className="space-y-1 text-sm">
                     <li>
+                      <a href="/tools">All Calculators</a>
+                    </li>
+                    <li>
                       <a href="/tools/overtime-pay-calculator">Overtime Calculator</a>
                     </li>
                     <li>
@@ -113,11 +119,23 @@ export default function RootLayout({
                     <li>
                       <a href="/tools/hourly-to-salary-calculator">Salary Converter</a>
                     </li>
+                    <li>
+                      <a href="/tools/take-home-pay-estimator">Take-Home Pay Estimator</a>
+                    </li>
+                    <li>
+                      <a href="/tools/severance-pay-calculator">Severance Calculator</a>
+                    </li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-bold mb-2">Guides</h3>
                   <ul className="space-y-1 text-sm">
+                    <li>
+                      <a href="/state-payroll-laws">State Payroll Laws</a>
+                    </li>
+                    <li>
+                      <a href="/blog/late-paycheck-laws-by-state">Late Paycheck Laws</a>
+                    </li>
                     <li>
                       <a href="/blog/how-to-calculate-overtime-pay">Overtime Guide</a>
                     </li>
@@ -130,8 +148,17 @@ export default function RootLayout({
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-bold mb-2">Legal</h3>
+                  <h3 className="font-bold mb-2">Company</h3>
                   <ul className="space-y-1 text-sm">
+                    <li>
+                      <a href="/about">About PayRulesHub</a>
+                    </li>
+                    <li>
+                      <a href="/editorial-policy">Editorial Policy</a>
+                    </li>
+                    <li>
+                      <a href="/methodology">Calculator Methodology</a>
+                    </li>
                     <li>
                       <a href="/privacy">Privacy Policy</a>
                     </li>
@@ -145,7 +172,10 @@ export default function RootLayout({
                 </div>
               </div>
               <div className="border-t border-slate-700 pt-4 text-center text-xs text-slate-400">
-                <p>© 2026 PayRulesHub. All rights reserved. Not professional tax advice.</p>
+                <p>© 2026 PayRulesHub. All rights reserved.</p>
+                <p className="mt-2">
+                  PayRulesHub provides educational payroll calculators and general information only. Not legal, tax, payroll, HR, or financial advice.
+                </p>
               </div>
             </div>
           </footer>

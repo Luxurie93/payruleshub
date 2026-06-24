@@ -1,3 +1,12 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "Learn how PayRulesHub handles privacy, analytics, cookies, advertising, and user data for its free payroll calculators and employment guides.",
+  alternates: { canonical: "https://payruleshub.com/privacy" },
+};
+
 export default function Page() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
@@ -9,63 +18,78 @@ export default function Page() {
 
         <h2>Overview</h2>
         <p>
-          PayRulesHub ("we," "us," or "our") operates this website and all
-          associated calculators. This privacy policy explains how we collect,
-          use, and protect information.
+          PayRulesHub ("we," "us," or "our") operates this website and its
+          free payroll calculators and employment guides. This privacy policy
+          explains what information may be collected, how it is used, and how
+          advertising and analytics tools may operate on the site.
         </p>
 
-        <h2>Information We Collect</h2>
+        <h2>Calculator Inputs</h2>
         <p>
-          <strong>Calculator Inputs:</strong> Calculations happen entirely in
-          your browser. We do not collect, store, or transmit any data you enter
-          into our calculators.
+          Calculator inputs are processed in your browser. PayRulesHub does not
+          collect, store, sell, or transmit the wages, hours, salary figures,
+          deduction amounts, or other calculator values you enter.
         </p>
+
+        <h2>Analytics</h2>
         <p>
-          <strong>Analytics:</strong> We use Google Analytics to track
-          aggregated, anonymized usage data (page views, traffic sources, device
-          type). This helps us improve the site.
+          We use Google Analytics to understand aggregate website usage, such as
+          page views, traffic sources, device type, and general engagement. This
+          helps us improve content quality, navigation, and calculator usability.
+          Analytics data is used in aggregate and is not used to identify
+          individual users.
         </p>
+
+        <h2>Advertising and Cookies</h2>
         <p>
-          <strong>Cookies:</strong> Our site may use cookies for analytics
-          purposes only. You can disable cookies in your browser settings.
+          PayRulesHub may display ads served by Google AdSense or similar ad
+          partners. Advertising providers may use cookies or similar
+          technologies to serve, measure, and improve ads. You can control or
+          disable cookies through your browser settings and may review Google ad
+          personalization controls through your Google account.
+        </p>
+
+        <h2>Information You Voluntarily Send</h2>
+        <p>
+          If you contact us by email, we may receive your email address and the
+          contents of your message. We use that information only to respond to
+          your question, investigate corrections, or improve the site.
         </p>
 
         <h2>How We Use Information</h2>
         <ul>
           <li>To improve website performance and user experience</li>
-          <li>To analyze traffic and usage patterns</li>
+          <li>To identify popular topics and calculators</li>
           <li>To diagnose technical issues</li>
+          <li>To review corrections or feedback submitted by users</li>
+          <li>To support advertising and analytics services</li>
         </ul>
 
         <h2>Data Sharing</h2>
         <p>
-          We do not sell, trade, or rent your personal information to third
-          parties. We share aggregated, anonymized data with Google Analytics
-          only.
-        </p>
-
-        <h2>Security</h2>
-        <p>
-          Since all calculations occur in your browser and no personal data is
-          stored, there is minimal security risk. However, we recommend using
-          secure internet connections for all online activities.
+          We do not sell your personal information. Aggregated analytics and ad
+          measurement data may be processed by third-party services such as
+          Google Analytics and Google AdSense according to their own policies.
         </p>
 
         <h2>Third-Party Links</h2>
         <p>
-          Our site may contain links to external resources. We are not
-          responsible for the privacy practices of third-party sites.
+          Our guides may link to government agencies, tax resources, or other
+          third-party websites. We are not responsible for the privacy practices
+          or content of external sites.
         </p>
 
         <h2>Children's Privacy</h2>
         <p>
-          This site is not intended for users under 13. We do not knowingly
-          collect data from children.
+          PayRulesHub is intended for a general audience and is not directed to
+          children under 13. We do not knowingly collect personal information
+          from children.
         </p>
 
         <h2>Contact Us</h2>
         <p>
-          For privacy questions, contact us at <strong>support@example.com</strong>
+          For privacy questions, corrections, or data-related requests, contact
+          us at <strong>support@payruleshub.com</strong>.
         </p>
       </div>
     </div>
