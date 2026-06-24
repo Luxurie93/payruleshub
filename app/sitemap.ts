@@ -55,6 +55,54 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/california-final-paycheck-calculator`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
+      url: `${baseUrl}/blog/late-paycheck-laws-by-state`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
+      url: `${baseUrl}/blog/california-overtime-calculator`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
+      url: `${baseUrl}/blog/texas-overtime-calculator`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
+      url: `${baseUrl}/blog/california-pto-payout-calculator`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
+      url: `${baseUrl}/blog/texas-pto-payout-calculator`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
+      url: `${baseUrl}/blog/massachusetts-take-home-pay-calculator`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
+      url: `${baseUrl}/blog/rhode-island-take-home-pay-calculator`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.72,
+    },
+    {
       url: `${baseUrl}/blog/how-to-calculate-overtime-pay`,
       lastModified: new Date(),
       changeFrequency: "monthly",
@@ -113,6 +161,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,
-    },
+    }
   ];
 }
