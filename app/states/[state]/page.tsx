@@ -8,8 +8,11 @@ export function generateStaticParams() {
   return statePayrollGuides.map((guide) => ({ state: guide.slug }));
 }
 
-export function generateMetadata({ params }: { params: { state: string } }): Metadata {
-  const guide = getStatePayrollGuide(params.state);
+type StatePageParams = Promise<{ state: string }>;
+
+export async function generateMetadata({ params }: { params: StatePageParams }): Promise<Metadata> {
+  const { state } = await params;
+  const guide = getStatePayrollGuide(state);
   if (!guide) {
     return {};
   }
@@ -21,8 +24,9 @@ export function generateMetadata({ params }: { params: { state: string } }): Met
   };
 }
 
-export default function StatePayrollPage({ params }: { params: { state: string } }) {
-  const guide = getStatePayrollGuide(params.state);
+export default async function StatePayrollPage({ params }: { params: StatePageParams }) {
+  const { state } = await params;
+  const guide = getStatePayrollGuide(state);
   if (!guide) {
     notFound();
   }
