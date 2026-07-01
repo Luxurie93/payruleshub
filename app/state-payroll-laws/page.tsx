@@ -27,6 +27,9 @@ const stateGuides = [
     ["/blog/texas-overtime-calculator", "Texas Overtime Calculator"],
     ["/blog/texas-pto-payout-calculator", "Texas PTO Payout Calculator"],
   ]],
+  ["Illinois", [
+    ["/blog/illinois-final-paycheck-calculator", "Illinois Final Paycheck Calculator"],
+  ]],
   ["Massachusetts", [
     ["/blog/massachusetts-final-paycheck-calculator", "Massachusetts Final Paycheck Calculator"],
     ["/blog/massachusetts-overtime-calculator", "Massachusetts Overtime Calculator"],

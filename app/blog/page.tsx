@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Illinois Final Paycheck Calculator: Estimate Your Last Check',
+            excerpt: 'Estimate an Illinois final paycheck with unpaid wages, overtime, commissions, bonuses, vacation pay, deductions, and next-payday timing rules.',
+            link: '/blog/illinois-final-paycheck-calculator',
+          },
+          {
             title: 'California Final Paycheck Calculator: Estimate Your Last Check',
             excerpt: 'Use this California final paycheck calculator guide to estimate final wages, PTO, overtime, and waiting-time penalty exposure after quitting or being fired.',
             link: '/blog/california-final-paycheck-calculator',
