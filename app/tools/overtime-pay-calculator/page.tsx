@@ -138,6 +138,7 @@ export default function Page() {
             <div className="bg-white p-6 rounded-lg shadow-md sticky top-20">
               <h3 className="text-lg font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-sm">
+                <li><a href="/blog/calculate-pay-and-overtime">→ Calculate Pay and Overtime</a></li>
                 <li><a href="/blog/how-to-calculate-overtime-pay">→ How to Calculate Overtime Pay</a></li>
                 <li><a href="/blog/overtime-rules-by-state">→ Overtime Rules by State</a></li>
                 <li><a href="/blog/how-to-estimate-take-home-pay-in-2026">→ Take-Home Pay Guide</a></li>

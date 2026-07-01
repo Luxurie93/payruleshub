@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/privacy', changeFrequency: 'yearly', priority: 0.5 },
     { path: '/terms', changeFrequency: 'yearly', priority: 0.5 },
     { path: '/contact', changeFrequency: 'yearly', priority: 0.5 },
+    { path: '/blog/calculate-pay-and-overtime', changeFrequency: 'monthly', priority: 0.74 },
     { path: '/blog/illinois-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/california-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/new-york-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },

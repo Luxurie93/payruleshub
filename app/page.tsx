@@ -130,6 +130,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
+                title: "Calculate Pay and Overtime",
+                link: "/blog/calculate-pay-and-overtime",
+              },
+              {
                 title: "How to Calculate Overtime Pay",
                 link: "/blog/how-to-calculate-overtime-pay",
               },

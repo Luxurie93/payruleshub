@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Calculate Pay and Overtime: Free Overtime Pay Calculator',
+            excerpt: 'Calculate regular pay, overtime pay, and gross weekly pay with formulas, examples, and a free overtime calculator.',
+            link: '/blog/calculate-pay-and-overtime',
+          },
+          {
             title: 'Illinois Final Paycheck Calculator: Estimate Your Last Check',
             excerpt: 'Estimate an Illinois final paycheck with unpaid wages, overtime, commissions, bonuses, vacation pay, deductions, and next-payday timing rules.',
             link: '/blog/illinois-final-paycheck-calculator',
