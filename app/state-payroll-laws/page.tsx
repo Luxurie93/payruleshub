@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { statePayrollGuides } from "../data/statePayrollGuides";
 
 export const metadata: Metadata = {
   title: "State Payroll Laws & Paycheck Guides",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://payruleshub.com/state-payroll-laws" },
 };
 
-const stateGuides = [
+const legacyGuides = [
   ["California", [
     ["/blog/california-final-paycheck-calculator", "California Final Paycheck Calculator"],
     ["/blog/california-overtime-calculator", "California Overtime Calculator"],
@@ -46,7 +47,7 @@ const stateGuides = [
 
 export default function Page() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12">
       <section className="mb-10">
         <p className="text-sm font-semibold text-teal-700 uppercase tracking-wide">State payroll resources</p>
         <h1 className="text-4xl font-bold text-slate-900">State Payroll Laws & Paycheck Guides</h1>
@@ -58,6 +59,21 @@ export default function Page() {
       </section>
 
       <section className="mb-10 rounded-xl bg-blue-50 p-6">
+        <h2 className="text-2xl font-bold text-slate-900">New state payroll law hubs</h2>
+        <p className="mt-2 text-slate-700">
+          Start with a state hub for high-level payroll rules, official agency links, calculators, final paycheck timing, PTO/vacation notes, and related guides.
+        </p>
+        <div className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          {statePayrollGuides.map((guide) => (
+            <a key={guide.slug} className="rounded-lg bg-white p-4 shadow-sm hover:shadow-md" href={`/states/${guide.slug}`}>
+              <h3 className="font-bold text-blue-900">{guide.name}</h3>
+              <p className="mt-1 text-sm text-slate-600">Overtime, final pay, PTO, taxes, and calculators →</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-10 rounded-xl bg-slate-50 p-6">
         <h2 className="text-2xl font-bold text-slate-900">Popular nationwide guide</h2>
         <p className="mt-2 text-slate-700">
           If your paycheck is late, start with our state-by-state overview before checking your state's agency rules.
@@ -67,21 +83,24 @@ export default function Page() {
         </a>
       </section>
 
-      <section className="grid gap-6 md:grid-cols-2">
-        {stateGuides.map(([state, guides]) => (
-          <div key={state as string} className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-2xl font-bold text-blue-900">{state as string}</h2>
-            <ul className="mt-4 space-y-3">
-              {(guides as string[][]).map(([href, label]) => (
-                <li key={href}>
-                  <a className="font-semibold text-slate-800 hover:text-teal-700" href={href}>
-                    {label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <section>
+        <h2 className="mb-6 text-3xl font-bold text-slate-900">Detailed calculator and article guides</h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          {legacyGuides.map(([state, guides]) => (
+            <div key={state as string} className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 className="text-2xl font-bold text-blue-900">{state as string}</h3>
+              <ul className="mt-4 space-y-3">
+                {(guides as string[][]).map(([href, label]) => (
+                  <li key={href}>
+                    <a className="font-semibold text-slate-800 hover:text-teal-700" href={href}>
+                      {label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="mt-12 rounded-xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-950">

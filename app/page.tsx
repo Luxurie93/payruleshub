@@ -142,6 +142,10 @@ export default function Home() {
                 link: "/blog/overtime-rules-by-state",
               },
               {
+                title: "State Payroll Laws & Paycheck Guides",
+                link: "/state-payroll-laws",
+              },
+              {
                 title: "How PTO Accrual Works",
                 link: "/blog/pto-accrual-explained",
               },

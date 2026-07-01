@@ -1,9 +1,15 @@
 import { MetadataRoute } from "next";
+import { statePayrollGuides } from "./data/statePayrollGuides";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://payruleshub.com";
+  const stateHubRoutes = statePayrollGuides.map((guide) => ({
+    path: `/states/${guide.slug}`,
+    changeFrequency: 'monthly',
+    priority: 0.78,
+  }));
   const routes = [
     { path: '/', changeFrequency: 'weekly', priority: 1 },
     { path: '/tools', changeFrequency: 'weekly', priority: 0.9 },
@@ -20,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/privacy', changeFrequency: 'yearly', priority: 0.5 },
     { path: '/terms', changeFrequency: 'yearly', priority: 0.5 },
     { path: '/contact', changeFrequency: 'yearly', priority: 0.5 },
+    ...stateHubRoutes,
     { path: '/blog/calculate-pay-and-overtime', changeFrequency: 'monthly', priority: 0.74 },
     { path: '/blog/illinois-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/california-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
