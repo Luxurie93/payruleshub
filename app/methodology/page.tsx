@@ -64,6 +64,23 @@ export default function Page() {
           not a substitute for official state agency guidance or professional advice.
         </p>
 
+        <h2>How to Check an Estimate</h2>
+        <p>
+          A calculator result is most useful when compared with documents from the real payroll situation.
+          For hourly or overtime questions, compare the estimate with a timecard, pay stub, written schedule,
+          and the employer's workweek definition. For PTO questions, compare the result with the written PTO
+          policy, carryover limits, waiting periods, and the balance shown in the payroll system. For severance,
+          review the offer letter, separation agreement, release terms, and whether the calculation is gross or net.
+        </p>
+
+        <h2>What We Do Not Calculate Automatically</h2>
+        <p>
+          Some items require facts that a public calculator cannot reliably know. Examples include local tax
+          elections, garnishments, pretax benefit rules, union agreements, commissioned pay plans, discretionary
+          bonuses, exempt/nonexempt classification, and employer-specific rounding or timekeeping rules. When those
+          facts matter, use the PayRulesHub number as a planning estimate and verify it with a qualified source.
+        </p>
+
         <h2>Why Results May Differ From Actual Payroll</h2>
         <ul>
           <li>Employer-specific policies and payroll calendars</li>

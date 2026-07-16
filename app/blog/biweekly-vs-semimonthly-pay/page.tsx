@@ -3,14 +3,14 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Biweekly vs Semimonthly Pay: Key Differences Explained",
   description:
-    "Biweekly means 26 paychecks a year; semimonthly means 24. See how each schedule affects your budget, benefits deductions, and take-home pay — with worked examples for multiple salary levels.",
+    "Compare biweekly and semimonthly pay schedules, paycheck counts, budgeting effects, benefit deductions, and take-home pay with clear examples.",
 };
 
 export default function Page() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       <div className="grid grid-cols-3 gap-6">
@@ -230,7 +230,7 @@ export default function Page() {
           </article>
 
           <div className="my-8">
-            <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+            <div className="ad-placeholder h-24"></div>
           </div>
 
           <div className="mt-8 p-6 bg-gray-50 rounded-lg">
@@ -263,7 +263,7 @@ export default function Page() {
       </div>
 
       <div className="mt-12">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
     </div>
   );

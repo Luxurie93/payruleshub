@@ -30,8 +30,9 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <div className="max-w-6xl mx-auto px-4 py-8">
+        <h1 className="mb-6 text-4xl font-bold text-slate-900">PTO Accrual Calculator</h1>
         <div className="mb-6">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
 
         <div className="grid grid-cols-3 gap-6">
@@ -69,7 +70,7 @@ export default function Page() {
             </div>
 
             <div className="my-8">
-              <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+              <div className="ad-placeholder h-24"></div>
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
@@ -134,7 +135,7 @@ export default function Page() {
         </div>
 
         <div className="mt-12">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
       </div>
     </>

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Calculate Pay and Overtime: Free Overtime Pay Calculator",
   description:
-    "Calculate regular pay and overtime pay from hourly rate, hours worked, and overtime hours. Learn the formula, see examples, and use the free PayRulesHub overtime calculator.",
+    "Calculate regular and overtime pay from hourly rate and hours worked. Learn the formula, review examples, and use our free overtime calculator.",
   alternates: {
     canonical: "https://payruleshub.com/blog/calculate-pay-and-overtime",
   },
@@ -20,7 +20,7 @@ export default function Page() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -199,7 +199,7 @@ export default function Page() {
       </div>
 
       <div className="mt-12">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
     </div>
   );

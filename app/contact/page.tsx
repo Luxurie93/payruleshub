@@ -52,12 +52,39 @@ export default function Page() {
           you used and the output you received. We take accuracy seriously and will investigate
           and correct any confirmed errors promptly.
         </p>
+        <p>
+          Helpful examples include the hourly rate and hours entered, the pay period selected,
+          the state involved, the PTO policy language you are comparing against, or the severance
+          formula shown in an employer document. Please avoid sending Social Security numbers,
+          bank information, full pay stubs, or other sensitive personal information.
+        </p>
 
         <h2>Editorial Corrections</h2>
         <p>
           If one of our articles references an outdated law, regulation, or salary threshold, please
           include a link to the current authoritative source (e.g., dol.gov, your state's labor
           agency) so we can verify and update quickly.
+        </p>
+
+        <h2>What Happens After You Contact Us</h2>
+        <p>
+          We review messages for the specific page, calculator, or source issue raised. If the feedback
+          identifies a clear error, we update the affected page and may add a clearer explanation so other
+          readers can avoid the same confusion. If a question requires personalized legal, tax, HR, or payroll
+          advice, we will direct you to consult a qualified professional instead of guessing.
+        </p>
+
+        <h2>Privacy Reminder</h2>
+        <p>
+          Please do not send Social Security numbers, bank account details, full pay stubs, tax returns,
+          medical information, or confidential employer documents. For calculator troubleshooting, a simplified
+          example with the relevant numbers is usually enough for us to reproduce and review the issue.
+        </p>
+        <p>
+          If your concern is urgent because a paycheck is missing, a deadline is approaching, or you are being
+          asked to sign a separation document, contact the appropriate employer representative, state agency,
+          attorney, tax professional, or payroll provider directly. PayRulesHub can improve site content, but it
+          cannot represent you or intervene in an individual employment dispute.
         </p>
       </section>
     </div>

@@ -3,14 +3,14 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "How to Calculate Overtime Pay (Step-by-Step with Examples)",
   description:
-    "Master the overtime pay formula with four worked examples covering standard weeks, California daily OT, blended rates, and salaried non-exempt employees. Includes common mistakes to avoid.",
+    "Learn the overtime pay formula with examples for standard weeks, California daily overtime, blended rates, and non-exempt salaried employees.",
 };
 
 export default function Page() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       <div className="grid grid-cols-3 gap-6">
@@ -224,7 +224,7 @@ export default function Page() {
           </article>
 
           <div className="my-8">
-            <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+            <div className="ad-placeholder h-24"></div>
           </div>
 
           <div className="mt-8 p-6 bg-gray-50 rounded-lg">
@@ -257,7 +257,7 @@ export default function Page() {
       </div>
 
       <div className="mt-12">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
     </div>
   );

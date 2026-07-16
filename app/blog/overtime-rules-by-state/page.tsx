@@ -3,14 +3,14 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Overtime Rules by State: 2026 Quick Reference Guide",
   description:
-    "State-by-state overtime law summary for 2026. See which states have daily OT thresholds, higher multipliers, or industry-specific rules — plus how to verify current law for your situation.",
+    "Compare 2026 overtime rules by state, including daily thresholds, higher multipliers, industry exceptions, and official sources for verification.",
 };
 
 export default function Page() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       <div className="grid grid-cols-3 gap-6">
@@ -234,7 +234,7 @@ export default function Page() {
           </article>
 
           <div className="my-8">
-            <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+            <div className="ad-placeholder h-24"></div>
           </div>
 
           <div className="mt-8 p-6 bg-gray-50 rounded-lg">
@@ -267,7 +267,7 @@ export default function Page() {
       </div>
 
       <div className="mt-12">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
     </div>
   );

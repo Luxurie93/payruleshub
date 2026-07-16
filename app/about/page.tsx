@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About PayRulesHub — Free Payroll Calculators & Employment Guides",
   description:
-    "PayRulesHub provides free, browser-based payroll calculators and plain-English employment guides for U.S. workers and small business owners. No signup, no data collection.",
+    "Learn how PayRulesHub creates free payroll calculators and plain-English employment guides for U.S. workers and small businesses.",
 };
 
 export default function Page() {

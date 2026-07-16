@@ -51,11 +51,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Trust and process section */}
+      <section className="max-w-6xl mx-auto px-4 py-12">
+        <div className="grid gap-8 lg:grid-cols-3">
+          <div className="lg:col-span-2 rounded-xl bg-white p-6 shadow-sm border border-slate-200">
+            <p className="text-sm font-semibold text-teal-700 uppercase tracking-wide">
+              Built for paycheck questions
+            </p>
+            <h2 className="text-3xl font-bold mt-2 mb-4 text-slate-900">
+              What PayRulesHub helps you estimate
+            </h2>
+            <p className="text-slate-700 mb-4">
+              PayRulesHub is a free calculator library for common work and payroll questions:
+              how much overtime may be worth, how PTO accrues, what an hourly wage equals as
+              a salary, how severance formulas work, and how gross pay can differ from take-home pay.
+              The tools are designed for quick planning before you compare the estimate with a pay stub,
+              offer letter, employer policy, or official agency guidance.
+            </p>
+            <p className="text-slate-700">
+              We focus on transparent math. Each calculator explains the basic formula, common
+              assumptions, and the situations where a real payroll result may be different, such as
+              deductions, local taxes, benefit elections, state wage rules, or employer-specific policies.
+            </p>
+          </div>
+          <div className="rounded-xl bg-blue-50 p-6 border border-blue-100">
+            <h2 className="text-2xl font-bold text-slate-900">Why users check us</h2>
+            <ul className="mt-4 space-y-3 text-slate-700 list-disc pl-5">
+              <li>No signup is required to run a calculator.</li>
+              <li>Inputs stay in your browser for the calculator session.</li>
+              <li>State guides link payroll math to practical wage questions.</li>
+              <li>Every estimate is educational and should be verified before major decisions.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* Ad slot */}
       <div className="max-w-6xl mx-auto px-4 py-6">
-        <div className="ad-placeholder h-24">
-          Advertisement (Google AdSense Slot 1)
-        </div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       {/* Featured tools */}
@@ -116,9 +149,7 @@ export default function Home() {
 
       {/* Ad slot */}
       <div className="max-w-6xl mx-auto px-4 py-6">
-        <div className="ad-placeholder h-24">
-          Advertisement (Google AdSense Slot 2)
-        </div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       {/* Popular guides */}
@@ -140,6 +171,10 @@ export default function Home() {
               {
                 title: "Overtime Rules by State",
                 link: "/blog/overtime-rules-by-state",
+              },
+              {
+                title: "Paycheck Calculators by State",
+                link: "/paycheck-calculators-by-state",
               },
               {
                 title: "State Payroll Laws & Paycheck Guides",
@@ -171,9 +206,7 @@ export default function Home() {
 
       {/* Ad slot */}
       <div className="max-w-6xl mx-auto px-4 py-6">
-        <div className="ad-placeholder h-24">
-          Advertisement (Google AdSense Slot 3)
-        </div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       {/* FAQ section */}
@@ -226,6 +259,40 @@ export default function Home() {
               Contact us for iframe or API access. Some tools may be available
               for embedding with attribution.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-4 py-12">
+        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <p className="text-sm font-semibold uppercase tracking-wide text-teal-700">
+            Review checklist
+          </p>
+          <h2 className="mt-2 text-3xl font-bold text-slate-900">
+            Before relying on a paycheck estimate
+          </h2>
+          <div className="mt-6 grid gap-6 md:grid-cols-3">
+            <div>
+              <h3 className="text-lg font-bold text-blue-900">Check your pay period</h3>
+              <p className="mt-2 text-sm text-slate-700">
+                Weekly, biweekly, semimonthly, and monthly schedules can produce different
+                per-check amounts even when the annual pay is the same.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-blue-900">Confirm deductions</h3>
+              <p className="mt-2 text-sm text-slate-700">
+                Health insurance, retirement contributions, garnishments, and other deductions
+                can change net pay beyond the calculator's simplified assumptions.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-blue-900">Verify state rules</h3>
+              <p className="mt-2 text-sm text-slate-700">
+                Overtime, final paycheck timing, and PTO payout rules vary. Use our state guides
+                as a starting point, then confirm with official sources when money is at stake.
+              </p>
+            </div>
           </div>
         </div>
       </section>

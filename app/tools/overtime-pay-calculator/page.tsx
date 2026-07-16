@@ -4,7 +4,7 @@ import OvertimeCalculator from "@/components/calculators/OvertimeCalculator";
 export const metadata: Metadata = {
   title: "Overtime Pay Calculator — Daily & Weekly | Free | PayRulesHub",
   description:
-    "Calculate overtime pay instantly. Enter your hourly rate and hours worked to see regular pay, overtime pay, and weekly total. Includes state-specific notes for CA, NY, TX, and more.",
+    "Estimate regular and overtime pay from your hourly rate and hours worked, with state-specific notes for California, New York, Texas, and more.",
   openGraph: {
     title: "Overtime Pay Calculator",
     description: "Calculate overtime pay with state rule notes.",
@@ -33,8 +33,9 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <div className="max-w-6xl mx-auto px-4 py-8">
+        <h1 className="mb-6 text-4xl font-bold text-slate-900">Overtime Pay Calculator</h1>
         <div className="mb-6">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
 
         <div className="grid grid-cols-3 gap-6">
@@ -79,7 +80,7 @@ export default function Page() {
             </div>
 
             <div className="my-8">
-              <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+              <div className="ad-placeholder h-24"></div>
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
@@ -148,7 +149,7 @@ export default function Page() {
         </div>
 
         <div className="mt-12">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
       </div>
     </>

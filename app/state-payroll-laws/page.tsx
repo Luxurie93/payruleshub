@@ -73,6 +73,46 @@ export default function Page() {
         </div>
       </section>
 
+      <section className="mb-10 rounded-xl border border-blue-100 bg-white p-6 shadow-sm">
+        <p className="text-sm font-semibold uppercase tracking-wide text-teal-700">Calculator-first searchers</p>
+        <h2 className="text-2xl font-bold text-slate-900">Paycheck calculators by state</h2>
+        <p className="mt-2 text-slate-700">
+          If you are starting with a dollar estimate instead of a legal question, use the state calculator hub to connect
+          take-home pay, overtime, PTO, severance, and final paycheck tools with each available state guide.
+        </p>
+        <a className="mt-4 inline-block font-semibold text-blue-800 hover:text-teal-700" href="/paycheck-calculators-by-state">
+          Open Paycheck Calculators by State →
+        </a>
+      </section>
+
+      <section className="mb-10 rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <p className="text-sm font-semibold uppercase tracking-wide text-teal-700">How to use this hub</p>
+        <h2 className="text-2xl font-bold text-slate-900">Start broad, then verify the state-specific detail</h2>
+        <div className="mt-5 grid gap-5 md:grid-cols-3">
+          <div>
+            <h3 className="text-lg font-bold text-blue-900">1. Identify the pay issue</h3>
+            <p className="mt-2 text-sm text-slate-700">
+              Decide whether the question is about overtime, final wages, PTO or vacation payout, late wages,
+              deductions, taxes, or a general paycheck estimate. That determines which guide and calculator to use first.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-blue-900">2. Check the state context</h3>
+            <p className="mt-2 text-sm text-slate-700">
+              State wage rules can turn on employment status, industry, separation type, written policy, or local ordinance.
+              Read the state guide notes before treating a number as final.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-blue-900">3. Compare with official sources</h3>
+            <p className="mt-2 text-sm text-slate-700">
+              Use PayRulesHub as an educational starting point, then confirm deadlines and legal rights with the relevant
+              state labor agency, the U.S. Department of Labor, payroll records, or a qualified professional.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="mb-10 rounded-xl bg-slate-50 p-6">
         <h2 className="text-2xl font-bold text-slate-900">Popular nationwide guide</h2>
         <p className="mt-2 text-slate-700">

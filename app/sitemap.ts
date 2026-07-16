@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     { path: '/', changeFrequency: 'weekly', priority: 1 },
     { path: '/tools', changeFrequency: 'weekly', priority: 0.9 },
+    { path: '/paycheck-calculators-by-state', changeFrequency: 'weekly', priority: 0.86 },
     { path: '/tools/overtime-pay-calculator', changeFrequency: 'monthly', priority: 0.8 },
     { path: '/tools/pto-accrual-calculator', changeFrequency: 'monthly', priority: 0.8 },
     { path: '/tools/hourly-to-salary-calculator', changeFrequency: 'monthly', priority: 0.8 },

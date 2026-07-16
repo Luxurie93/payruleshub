@@ -66,7 +66,7 @@ export default async function StatePayrollPage({ params }: { params: StatePagePa
       </section>
 
       <div className="my-8">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-3">
@@ -97,6 +97,20 @@ export default async function StatePayrollPage({ params }: { params: StatePagePa
             <div className="mt-5 rounded-lg bg-amber-50 p-4 text-sm text-amber-950">
               <strong>Tip:</strong> Save pay stubs, timecards, commission plans, PTO balances, handbook pages, resignation or termination documents, and any payroll emails before contacting HR or an agency.
             </div>
+          </section>
+
+          <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h2 className="text-2xl font-bold text-slate-900">Documents to compare before you act</h2>
+            <p className="mt-3 text-slate-700 leading-7">
+              A state guide is most useful when paired with the records from your own job. Before relying on a final-paycheck,
+              overtime, PTO, or take-home-pay estimate, compare the PayRulesHub result with your latest pay stub, time records,
+              written wage agreement, employee handbook, PTO policy, separation paperwork, and any payroll emails.
+            </p>
+            <p className="mt-4 text-slate-700 leading-7">
+              If the documents conflict or a deadline appears to have passed, use the official {guide.name} resources below
+              to confirm the current rule. Some issues depend on job classification, industry, employer size, local ordinances,
+              or whether the separation was voluntary or involuntary.
+            </p>
           </section>
 
           <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">

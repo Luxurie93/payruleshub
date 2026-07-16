@@ -52,13 +52,18 @@ const articleHtml = `<h1>Massachusetts Take-Home Pay Calculator: Estimate Net Pa
 <p>Divide annual salary by 26 for a biweekly estimate.</p>
 <h3>Why is my take-home pay lower than expected?</h3>
 <p>Taxes, FICA, benefits, retirement contributions, and other deductions reduce gross pay.</p>
+
+<h2>How to use this estimate</h2>
+<p>Use this page as a planning worksheet, not as a final tax or payroll answer. Start with the pay period, gross wages or salary, filing assumptions, benefit deductions, retirement contributions, and any state-specific details that affect the check.</p>
+<p>If the estimate differs from an actual paycheck, review the W-4, state withholding form, pretax benefits, retirement contributions, local tax rules, garnishments, bonuses, overtime, and pay period dates. A small input difference can change net pay substantially.</p>
+<p>For important decisions, compare the estimate with official IRS resources, state tax guidance, your payroll provider, or a qualified tax professional. PayRulesHub is designed to make the math easier to understand, not to replace professional advice.</p>
 <p><em>This page is general information, not tax advice.</em></p>`;
 
 export default function Page() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -66,7 +71,7 @@ export default function Page() {
           <article className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: articleHtml }} />
 
           <div className="my-8">
-            <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+            <div className="ad-placeholder h-24"></div>
           </div>
 
           <div className="mt-8 p-6 bg-gray-50 rounded-lg">

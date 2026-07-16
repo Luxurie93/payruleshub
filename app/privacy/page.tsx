@@ -48,6 +48,12 @@ export default function Page() {
           disable cookies through your browser settings and may review Google ad
           personalization controls through your Google account.
         </p>
+        <p>
+          Third-party vendors, including Google, may use cookies or device identifiers to serve ads based on a
+          user's prior visits to this website or other websites. Google's use of advertising cookies enables it
+          and its partners to serve ads based on visits to PayRulesHub and other sites. You can learn more about
+          how Google uses information from sites or apps that use its services through Google's published privacy resources.
+        </p>
 
         <h2>Information You Voluntarily Send</h2>
         <p>
@@ -90,6 +96,11 @@ export default function Page() {
         <p>
           For privacy questions, corrections, or data-related requests, contact
           us at <strong>support@payruleshub.com</strong>.
+        </p>
+        <p>
+          Please do not email Social Security numbers, bank account numbers, full pay stubs, tax returns,
+          medical information, or other sensitive personal documents. If you need to explain a calculator issue,
+          send only the minimum example inputs needed to reproduce the calculation.
         </p>
       </div>
     </div>

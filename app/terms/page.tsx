@@ -54,6 +54,11 @@ export default function Page() {
           copy, republish, scrape, or redistribute substantial portions of the
           site without permission.
         </p>
+        <p>
+          You may not use the site in a way that interferes with normal operation, attempts to reverse engineer
+          or overload calculators, misrepresents PayRulesHub content as professional advice, or removes attribution
+          when linking to our resources. Automated scraping, bulk copying, or republishing calculator pages is not permitted.
+        </p>
 
         <h2>6. Accuracy and Corrections</h2>
         <p>
@@ -81,6 +86,11 @@ export default function Page() {
           PayRulesHub is provided "as is" without warranties. To the fullest
           extent permitted by law, we are not liable for losses or damages that
           may result from use of the site or reliance on its content.
+        </p>
+        <p>
+          Because payroll, tax, and employment outcomes depend on facts outside our control, you are responsible
+          for checking calculations against official records, employer documents, and current law before making
+          financial, legal, or employment decisions.
         </p>
 
         <h2>10. Changes to These Terms</h2>

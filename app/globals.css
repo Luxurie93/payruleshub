@@ -23,7 +23,7 @@
 
 @layer components {
   .ad-placeholder {
-    @apply bg-slate-100 border-2 border-dashed border-slate-300 rounded p-4 text-center text-sm text-slate-500;
+    @apply hidden;
   }
 
   .btn-primary {

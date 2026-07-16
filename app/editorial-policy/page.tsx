@@ -48,6 +48,26 @@ export default function Page() {
           Pages may be updated when laws change, when users report errors, or when we find better ways to
           explain a calculation.
         </p>
+        <p>
+          Each update is intended to improve the reader's ability to understand the calculation or next step.
+          We may revise examples, add official-source links, clarify assumptions, remove outdated phrasing,
+          or add state-specific notes when a general answer could mislead a reader.
+        </p>
+
+        <h2>Source and Citation Standards</h2>
+        <p>
+          When a page discusses wage rules, taxes, or state-specific payroll issues, we try to rely on sources
+          such as official state labor departments, the U.S. Department of Labor, IRS publications, state statutes,
+          or agency FAQs. If a topic depends heavily on employer policy, such as PTO payout or severance, we say so
+          rather than implying that one calculator can decide every situation.
+        </p>
+
+        <h2>Human Usefulness Standard</h2>
+        <p>
+          We do not publish pages only to target a keyword. A useful PayRulesHub page should help a reader make
+          a practical next move: run a calculation, compare a pay stub, understand what information to gather,
+          identify which state rule may matter, or decide when to contact HR, payroll, a state agency, or a professional.
+        </p>
 
         <h2>Corrections</h2>
         <p>

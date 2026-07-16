@@ -57,13 +57,18 @@ const articleHtml = `<h1>California Overtime Calculator: Daily and Weekly Overti
 <p>Double time is usually twice the regular rate and can apply after more than 12 hours in a day or after more than 8 hours on a seventh consecutive workday.</p>
 <h3>Do salaried employees get overtime in California?</h3>
 <p>Some salaried employees are non-exempt and may still qualify. Exemption status depends on duties, salary level, and law.</p>
+
+<h2>How to use this estimate</h2>
+<p>Use this page as a worksheet, not a final payroll decision. Start by writing down the pay period, hourly rate or salary, hours worked, deductions, and the state involved. Then compare the estimate with your actual pay stub, employer policy, offer letter, time records, or separation documents.</p>
+<p>If the number looks different from what your employer paid, look for the cause before assuming the paycheck is wrong. Common differences include pretax deductions, local taxes, benefit elections, PTO caps, waiting periods, exempt versus non-exempt classification, commission rules, bonuses, reimbursements, or a different payroll calendar.</p>
+<p>For state-specific questions, verify the current rule with the official state labor agency or the U.S. Department of Labor. Payroll and wage rules can change, and exceptions may apply based on job duties, industry, employer size, union agreements, or written company policies.</p>
 <p><em>This page is general information, not legal advice.</em></p>`;
 
 export default function Page() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
-        <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+        <div className="ad-placeholder h-24"></div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -71,7 +76,7 @@ export default function Page() {
           <article className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: articleHtml }} />
 
           <div className="my-8">
-            <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+            <div className="ad-placeholder h-24"></div>
           </div>
 
           <div className="mt-8 p-6 bg-gray-50 rounded-lg">

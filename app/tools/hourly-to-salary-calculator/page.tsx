@@ -30,12 +30,13 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <div className="max-w-6xl mx-auto px-4 py-8">
+        <h1 className="mb-6 text-4xl font-bold text-slate-900">Hourly to Salary Calculator</h1>
         <div className="mb-6">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
 
-        <div className="grid grid-cols-3 gap-6">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="lg:col-span-2">
             <HourlyToSalaryCalculator />
 
             <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
@@ -46,6 +47,21 @@ export default function Page() {
                 <a href="/tools">Take-Home Pay Estimator</a> to estimate net pay.
               </p>
             </div>
+
+            <section className="mt-8 rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h2 className="text-2xl font-bold text-slate-900">When hourly-to-salary math is useful</h2>
+              <p className="mt-3 text-slate-700">
+                This calculator is most helpful when comparing job offers, planning a raise request, estimating
+                annual income from a part-time schedule, or checking whether a salary offer fairly reflects the
+                hours you expect to work. Use the same hours-per-week assumption for each offer so the comparison
+                stays consistent.
+              </p>
+              <p className="mt-3 text-slate-700">
+                Remember that gross salary is only one part of compensation. Overtime eligibility, health insurance,
+                retirement match, PTO, bonuses, commissions, schedule predictability, and unpaid time off can change
+                the real value of an hourly or salaried role.
+              </p>
+            </section>
 
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
               <h3 className="text-lg font-bold mb-4">Related Calculators</h3>
@@ -75,7 +91,7 @@ export default function Page() {
             </div>
 
             <div className="my-8">
-              <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+              <div className="ad-placeholder h-24"></div>
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
@@ -131,7 +147,7 @@ export default function Page() {
         </div>
 
         <div className="mt-12">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
       </div>
     </>

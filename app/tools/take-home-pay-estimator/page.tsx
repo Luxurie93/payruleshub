@@ -32,9 +32,7 @@ export default function Page() {
       />
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="mb-6">
-          <div className="ad-placeholder h-24">
-            Advertisement (Google AdSense Slot 1)
-          </div>
+          <div className="ad-placeholder h-24"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -46,6 +44,31 @@ export default function Page() {
               </p>
             </div>
             <TakeHomePayCalculator />
+
+            <section className="mt-8 rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h2 className="text-2xl font-bold text-slate-900">How to use the take-home pay estimate</h2>
+              <p className="mt-3 text-slate-700">
+                Start with your gross pay, pay frequency, state, and common deductions. Then compare the estimate
+                with an actual pay stub or offer letter. Net pay can change when a paycheck includes overtime,
+                bonuses, commissions, reimbursements, pretax benefits, retirement contributions, garnishments,
+                or local tax rules.
+              </p>
+              <p className="mt-3 text-slate-700">
+                For job-offer comparisons, run the same salary through more than one pay frequency if needed.
+                A biweekly paycheck usually means 26 checks per year, while semimonthly usually means 24.
+                The annual pay may be the same even when each check looks different.
+              </p>
+            </section>
+
+            <section className="mt-8 rounded-lg bg-blue-50 p-6 border border-blue-100">
+              <h2 className="text-2xl font-bold text-slate-900">What this estimator cannot know</h2>
+              <ul className="mt-4 space-y-2 text-slate-700 list-disc pl-5">
+                <li>Your exact W-4 and state withholding elections</li>
+                <li>Employer-specific benefit deductions and payroll calendars</li>
+                <li>Local taxes, credits, garnishments, or special payroll adjustments</li>
+                <li>Whether a bonus or supplemental wage payment uses different withholding</li>
+              </ul>
+            </section>
 
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
               <h3 className="text-lg font-bold mb-4">Related Tools</h3>
@@ -75,9 +98,7 @@ export default function Page() {
             </div>
 
             <div className="my-8">
-              <div className="ad-placeholder h-24">
-                Advertisement (Google AdSense Slot 2)
-              </div>
+              <div className="ad-placeholder h-24"></div>
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
@@ -119,7 +140,7 @@ export default function Page() {
         </div>
 
         <div className="mt-12">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
       </div>
     </>

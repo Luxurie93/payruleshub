@@ -33,12 +33,13 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <div className="max-w-6xl mx-auto px-4 py-8">
+        <h1 className="mb-6 text-4xl font-bold text-slate-900">Severance Pay Calculator</h1>
         <div className="mb-6">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 1)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
 
-        <div className="grid grid-cols-3 gap-6">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="lg:col-span-2">
             <SeveranceCalculator />
 
             <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
@@ -50,6 +51,32 @@ export default function Page() {
                 attorney before signing any separation agreement.
               </p>
             </div>
+
+            <section className="mt-8 rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+              <h2 className="text-2xl font-bold text-slate-900">How to use a severance estimate</h2>
+              <p className="mt-3 text-slate-700">
+                Severance calculations usually start with a formula, but the final package depends on the document
+                you are asked to sign. Before treating an estimate as complete, compare it with your offer letter,
+                employment agreement, employee handbook, separation agreement, bonus plan, commission plan, equity
+                documents, and any written layoff or WARN notice.
+              </p>
+              <p className="mt-3 text-slate-700">
+                Also check whether the number shown is gross or net. Severance is commonly treated like wages for
+                tax withholding, so the amount deposited may be lower than the gross package. Health coverage,
+                outplacement support, unused PTO, release language, non-disparagement clauses, and rehire eligibility
+                can also affect the practical value of the offer.
+              </p>
+            </section>
+
+            <section className="mt-8 rounded-lg bg-blue-50 p-6 border border-blue-100">
+              <h2 className="text-2xl font-bold text-slate-900">Questions to ask before signing</h2>
+              <ul className="mt-4 space-y-2 text-slate-700 list-disc pl-5">
+                <li>Is the payment based on weekly pay, salary, tenure, or a negotiated flat amount?</li>
+                <li>Does the offer include unused PTO, bonuses, commissions, equity, or benefits continuation?</li>
+                <li>Is there a release of claims, confidentiality clause, or deadline to respond?</li>
+                <li>Would state law, a contract, union agreement, or WARN Act notice change the package?</li>
+              </ul>
+            </section>
 
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
               <h3 className="text-lg font-bold mb-4">Related Calculators</h3>
@@ -72,7 +99,7 @@ export default function Page() {
             </div>
 
             <div className="my-8">
-              <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 2)</div>
+              <div className="ad-placeholder h-24"></div>
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
@@ -126,7 +153,7 @@ export default function Page() {
         </div>
 
         <div className="mt-12">
-          <div className="ad-placeholder h-24">Advertisement (Google AdSense Slot 3)</div>
+          <div className="ad-placeholder h-24"></div>
         </div>
       </div>
     </>
