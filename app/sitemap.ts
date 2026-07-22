@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/contact', changeFrequency: 'yearly', priority: 0.5 },
     ...stateHubRoutes,
     { path: '/blog/calculate-pay-and-overtime', changeFrequency: 'monthly', priority: 0.74 },
+    { path: '/blog/pennsylvania-take-home-pay-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/illinois-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/california-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/new-york-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },

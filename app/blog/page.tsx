@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Pennsylvania Take-Home Pay Calculator: Estimate Net Pay',
+            excerpt: 'Estimate Pennsylvania take-home pay with federal withholding, FICA, state income tax, local earned income tax, and deductions.',
+            link: '/blog/pennsylvania-take-home-pay-calculator',
+          },
+          {
             title: 'Calculate Pay and Overtime: Free Overtime Pay Calculator',
             excerpt: 'Calculate regular pay, overtime pay, and gross weekly pay with formulas, examples, and a free overtime calculator.',
             link: '/blog/calculate-pay-and-overtime',
