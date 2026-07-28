@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'New Jersey Take-Home Pay Calculator: Estimate Net Pay',
+            excerpt: 'Estimate New Jersey take-home pay with federal withholding, FICA, New Jersey Gross Income Tax, deductions, and pay stub review tips.',
+            link: '/blog/new-jersey-take-home-pay-calculator',
+          },
+          {
             title: 'Ohio Take-Home Pay Calculator: Estimate Net Pay',
             excerpt: 'Estimate Ohio take-home pay with federal withholding, FICA, Ohio state income tax, local municipal tax, school district tax, and deductions.',
             link: '/blog/ohio-take-home-pay-calculator',

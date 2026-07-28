@@ -34,6 +34,9 @@ const legacyGuides = [
   ["Pennsylvania", [
     ["/blog/pennsylvania-take-home-pay-calculator", "Pennsylvania Take-Home Pay Calculator"],
   ]],
+  ["New Jersey", [
+    ["/blog/new-jersey-take-home-pay-calculator", "New Jersey Take-Home Pay Calculator"],
+  ]],
   ["Massachusetts", [
     ["/blog/massachusetts-final-paycheck-calculator", "Massachusetts Final Paycheck Calculator"],
     ["/blog/massachusetts-overtime-calculator", "Massachusetts Overtime Calculator"],
