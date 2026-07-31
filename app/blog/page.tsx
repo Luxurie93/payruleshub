@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Georgia Take-Home Pay Calculator: Estimate Net Pay',
+            excerpt: 'Estimate Georgia take-home pay with federal withholding, FICA, Georgia income tax withholding, deductions, and pay stub review tips.',
+            link: '/blog/georgia-take-home-pay-calculator',
+          },
+          {
             title: 'New Jersey Take-Home Pay Calculator: Estimate Net Pay',
             excerpt: 'Estimate New Jersey take-home pay with federal withholding, FICA, New Jersey Gross Income Tax, deductions, and pay stub review tips.',
             link: '/blog/new-jersey-take-home-pay-calculator',
