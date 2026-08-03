@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Michigan Final Paycheck Calculator: Estimate Your Last Check',
+            excerpt: 'Estimate a Michigan final paycheck with unpaid wages, overtime, commissions, bonuses, fringe benefits, deductions, and regular-payday timing rules.',
+            link: '/blog/michigan-final-paycheck-calculator',
+          },
+          {
             title: 'Georgia Take-Home Pay Calculator: Estimate Net Pay',
             excerpt: 'Estimate Georgia take-home pay with federal withholding, FICA, Georgia income tax withholding, deductions, and pay stub review tips.',
             link: '/blog/georgia-take-home-pay-calculator',

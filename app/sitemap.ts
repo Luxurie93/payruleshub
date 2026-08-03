@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/terms', changeFrequency: 'yearly', priority: 0.5 },
     { path: '/contact', changeFrequency: 'yearly', priority: 0.5 },
     ...stateHubRoutes,
+    { path: '/blog/michigan-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/georgia-take-home-pay-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/new-jersey-take-home-pay-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/ohio-take-home-pay-calculator', changeFrequency: 'monthly', priority: 0.72 },
