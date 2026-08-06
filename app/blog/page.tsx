@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Virginia Take-Home Pay Calculator: Estimate Net Pay',
+            excerpt: 'Estimate Virginia take-home pay with federal withholding, FICA, Virginia income tax withholding, deductions, and pay-stub review tips.',
+            link: '/blog/virginia-take-home-pay-calculator',
+          },
+          {
             title: 'Michigan Final Paycheck Calculator: Estimate Your Last Check',
             excerpt: 'Estimate a Michigan final paycheck with unpaid wages, overtime, commissions, bonuses, fringe benefits, deductions, and regular-payday timing rules.',
             link: '/blog/michigan-final-paycheck-calculator',
