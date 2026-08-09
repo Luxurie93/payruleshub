@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Illinois Take-Home Pay Calculator: Estimate Net Pay',
+            excerpt: 'Estimate Illinois take-home pay with federal withholding, FICA, Illinois income tax withholding, deductions, and paycheck review tips.',
+            link: '/blog/illinois-take-home-pay-calculator',
+          },
+          {
             title: 'Virginia Take-Home Pay Calculator: Estimate Net Pay',
             excerpt: 'Estimate Virginia take-home pay with federal withholding, FICA, Virginia income tax withholding, deductions, and pay-stub review tips.',
             link: '/blog/virginia-take-home-pay-calculator',
