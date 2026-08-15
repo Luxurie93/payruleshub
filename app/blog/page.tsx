@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Washington Final Paycheck Calculator: Estimate Your Last Check',
+            excerpt: 'Estimate a Washington final paycheck with unpaid wages, overtime, PTO policy notes, deductions, and next-payday final pay timing rules.',
+            link: '/blog/washington-final-paycheck-calculator',
+          },
+          {
             title: 'Arizona Final Paycheck Calculator: Estimate Your Last Check',
             excerpt: 'Estimate an Arizona final paycheck with unpaid wages, overtime, commissions, PTO policy notes, deductions, and final-pay timing rules.',
             link: '/blog/arizona-final-paycheck-calculator',
