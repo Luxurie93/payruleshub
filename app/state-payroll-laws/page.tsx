@@ -38,6 +38,9 @@ const legacyGuides = [
   ["Washington", [
     ["/blog/washington-final-paycheck-calculator", "Washington Final Paycheck Calculator"],
   ]],
+  ["Colorado", [
+    ["/blog/colorado-final-paycheck-calculator", "Colorado Final Paycheck Calculator"],
+  ]],
   ["Pennsylvania", [
     ["/blog/pennsylvania-take-home-pay-calculator", "Pennsylvania Take-Home Pay Calculator"],
   ]],
