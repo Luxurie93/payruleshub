@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/terms', changeFrequency: 'yearly', priority: 0.5 },
     { path: '/contact', changeFrequency: 'yearly', priority: 0.5 },
     ...stateHubRoutes,
+    { path: '/blog/oregon-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/colorado-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/north-carolina-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/washington-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
