@@ -32,6 +32,9 @@ const legacyGuides = [
     ["/blog/illinois-final-paycheck-calculator", "Illinois Final Paycheck Calculator"],
     ["/blog/illinois-take-home-pay-calculator", "Illinois Take-Home Pay Calculator"],
   ]],
+  ["Minnesota", [
+    ["/blog/minnesota-final-paycheck-calculator", "Minnesota Final Paycheck Calculator"],
+  ]],
   ["Arizona", [
     ["/blog/arizona-final-paycheck-calculator", "Arizona Final Paycheck Calculator"],
   ]],

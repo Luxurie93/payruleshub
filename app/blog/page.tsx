@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Minnesota Final Paycheck Calculator: Estimate Final Wages',
+            excerpt: 'Estimate a Minnesota final paycheck with unpaid wages, overtime, commissions, PTO policy notes, deductions, and final-pay timing rules.',
+            link: '/blog/minnesota-final-paycheck-calculator',
+          },
+          {
             title: 'Oregon Final Paycheck Calculator: Estimate Final Wages',
             excerpt: 'Estimate an Oregon final paycheck with unpaid wages, overtime, commissions, PTO policy notes, deductions, and next-business-day timing rules.',
             link: '/blog/oregon-final-paycheck-calculator',
