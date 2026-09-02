@@ -320,6 +320,7 @@ export const statePayrollGuides: StatePayrollGuide[] = [
       { label: "Connecticut Department of Revenue Services", href: "https://portal.ct.gov/drs" },
     ],
     relatedGuides: [
+      { label: "Connecticut Final Paycheck Calculator", href: "/blog/connecticut-final-paycheck-calculator" },
       { label: "Overtime Pay Calculator", href: "/tools/overtime-pay-calculator" },
       { label: "Take-Home Pay Estimator", href: "/tools/take-home-pay-estimator" },
       { label: "Late Paycheck Laws by State", href: "/blog/late-paycheck-laws-by-state" },

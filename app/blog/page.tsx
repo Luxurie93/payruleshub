@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Connecticut Final Paycheck Calculator: Estimate Final Wages',
+            excerpt: 'Estimate a Connecticut final paycheck with unpaid wages, overtime, PTO policy notes, deductions, and discharge vs resignation timing rules.',
+            link: '/blog/connecticut-final-paycheck-calculator',
+          },
+          {
             title: 'Tennessee Final Paycheck Calculator: Estimate Final Wages',
             excerpt: 'Estimate a Tennessee final paycheck with unpaid wages, overtime, commissions, PTO policy notes, deductions, and final-pay timing rules.',
             link: '/blog/tennessee-final-paycheck-calculator',
