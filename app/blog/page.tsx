@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Wisconsin Final Paycheck Calculator: Estimate Final Wages',
+            excerpt: 'Estimate a Wisconsin final paycheck with unpaid wages, overtime, commissions, PTO policy notes, deductions, and final wage timing rules.',
+            link: '/blog/wisconsin-final-paycheck-calculator',
+          },
+          {
             title: 'Missouri Final Paycheck Calculator: Estimate Final Wages',
             excerpt: 'Estimate a Missouri final paycheck with unpaid wages, overtime, commissions, PTO policy notes, deductions, and discharge final-pay timing rules.',
             link: '/blog/missouri-final-paycheck-calculator',
