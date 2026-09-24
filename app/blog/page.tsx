@@ -16,6 +16,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[
           {
+            title: 'Indiana Final Paycheck Calculator: Estimate Final Wages',
+            excerpt: 'Estimate an Indiana final paycheck with unpaid wages, overtime, commissions, vacation policy notes, deductions, and next-payday timing rules.',
+            link: '/blog/indiana-final-paycheck-calculator',
+          },
+          {
             title: 'Wisconsin Final Paycheck Calculator: Estimate Final Wages',
             excerpt: 'Estimate a Wisconsin final paycheck with unpaid wages, overtime, commissions, PTO policy notes, deductions, and final wage timing rules.',
             link: '/blog/wisconsin-final-paycheck-calculator',

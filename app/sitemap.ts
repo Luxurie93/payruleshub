@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/terms', changeFrequency: 'yearly', priority: 0.5 },
     { path: '/contact', changeFrequency: 'yearly', priority: 0.5 },
     ...stateHubRoutes,
+    { path: '/blog/indiana-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/wisconsin-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/missouri-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
     { path: '/blog/maryland-final-paycheck-calculator', changeFrequency: 'monthly', priority: 0.72 },
